@@ -1,173 +1,49 @@
 🛡️ VulnSpecter – Cyber Vulnerability Scanner
+<p align="center"> <img src="dashboard.png" width="900"> </p>
 
-VulnSpecter is a lightweight cybersecurity tool that scans websites for common vulnerabilities and visualizes the results through a cyber-style dashboard with an attack risk meter.
+VulnSpecter is a lightweight cyber-themed vulnerability scanner that analyzes websites for common security weaknesses and displays results through a cyber security dashboard with an attack meter.
 
-The project demonstrates concepts used in professional security tools like OWASP ZAP and Nmap, but in a simplified and educational form.
+🔗 Live Demo
+VulnSpecter Live Scanner
 
-It helps identify:
-
-Missing security headers
-Sensitive files exposed
-Admin panel endpoints
-Open ports
-Web technologies used
-Overall vulnerability risk score
-🚀 Live Application
-
-Try the deployed scanner here:
-
-VulnSpecter Dashboard
-
-Open VulnSpecter App
-
-🧠 Project Purpose
-
-The goal of VulnSpecter is to help learners understand:
-
-Basic penetration testing techniques
-Web security misconfigurations
-How vulnerability scanners work internally
-How cybersecurity dashboards visualize risks
-
-It acts as a mini penetration testing assistant.
-
-⚡ Key Features
-🔍 Web Vulnerability Detection
-
-Scans target websites for:
-
-Exposed sensitive files
-Admin login panels
-Missing HTTP security headers
-🖥️ Cyber Security Dashboard
-
-Interactive interface built with Streamlit.
-
-Features include:
-
-Scan results visualization
-Security status indicators
-Attack logs
-⚠️ Attack Risk Meter
-
-A dynamic risk scoring system that calculates the severity of discovered vulnerabilities.
-
-Example output:
-
-Risk Score: 65%
-Threat Level: HIGH
-🧠 Technology Detection
-
-Identifies server technologies used by the target.
-
-Examples:
-
-Server: Apache
-Framework: PHP
-Platform: Linux
-🌐 Port Scanner
-
-Performs lightweight network checks similar to tools like Nmap.
-
-Example ports checked:
-
-80   → HTTP
-443  → HTTPS
-21   → FTP
-22   → SSH
-📄 Vulnerability Report
-
-Automatically generates a structured vulnerability report showing:
-
-Findings
-Risk level
-Security recommendations
-🛠️ Technology Stack
-Technology	Purpose
-Python	Core programming language
-Streamlit	Dashboard interface
-Requests	HTTP scanning
-Socket	Port scanning
-Pandas	Data handling
-ReportLab	Report generation
+🚀 Features
+🔎 Web vulnerability scanning
+🌐 Open port detection
+🛡 Security header analysis
+⚠ Outdated server detection
+📊 Cyber security dashboard
+🚨 Attack risk meter
+⚙️ Tech Stack
+Python
+Streamlit
+Requests
+Socket
 📂 Project Structure
-vulnspecter
+VulnSpecter
 │
-├── app.py                # Streamlit dashboard
-├── scanner.py            # Main scanning engine
-├── checks.py             # Vulnerability checks
-├── risk.py               # Risk score calculation
-├── port_scan.py          # Port scanner
-├── tech_detect.py        # Technology detection
-├── report.py             # Report generator
-├── utils.py              # Helper functions
-│
+├── app.py
+├── scanner.py
+├── port_scanner.py
+├── vulnerability_db.py
+├── report_generator.py
 ├── requirements.txt
-├── README.md
-│
-└── assets
-    └── cyber.css         # Cyber theme styling
-⚙️ Installation
-
-Clone the repository:
-
+└── dashboard.png
+▶️ Run Locally
 git clone https://github.com/yourusername/vulnspecter.git
 cd vulnspecter
-
-Install dependencies:
-
 pip install -r requirements.txt
-
-Run the dashboard:
-
 streamlit run app.py
+🧪 Test URLs
 
-The app will start locally:
+Use safe practice targets:
 
-http://localhost:8501
-🧪 Example Test Targets
-
-Use intentionally vulnerable websites for safe testing.
-
-Example:
-
+https://example.com
 http://testphp.vulnweb.com
 http://demo.testfire.net
+https://scanme.nmap.org
 
-These environments are commonly used with security tools like Burp Suite.
+⚠ Only scan systems you own or have permission to test.
 
-📊 Example Scan Output
-Sensitive Files: FOUND
-Admin Panels: FOUND
-Security Headers: MISSING
+📌 Purpose
 
-Open Ports
-80  → HTTP
-443 → HTTPS
-
-Technology
-Server: Apache
-
-Risk Score
-72% → HIGH
-🔐 Ethical Use Disclaimer
-
-This tool is intended only for educational purposes.
-
-Only scan:
-
-Your own websites
-Local test environments
-Intentionally vulnerable labs
-
-Never scan websites without permission.
-
-🌟 Future Improvements
-
-Possible enhancements:
-
-CVSS vulnerability scoring
-Real-time attack radar visualization
-Subdomain discovery
-API security scanning
-Automated PDF reports
+This project demonstrates basic vulnerability scanning and penetration testing concepts used in cybersecurity.
