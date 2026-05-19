@@ -1,0 +1,8 @@
+{
+    "target": "http://testphp.vulnweb.com",
+    "results": {
+        "Sensitive Files": [],
+        "Admin Panels": [],
+        "Missing Security Headers": []
+    }
+}
