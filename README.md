@@ -2,13 +2,8 @@
 
 ## Cyber Vulnerability Scanner
 
-```{=html}
-<p align="center">
-```
-`<img src="dashboard.png" width="900">`{=html}
-```{=html}
-</p>
-```
+<img src="dashboard.png" width="900">
+
 **VulnSpecter** is a lightweight cyber‑themed vulnerability scanner that
 analyzes websites for common security weaknesses and visualizes results
 through a **cyber security dashboard with an attack meter**.
@@ -35,13 +30,6 @@ Live Demo: https://huggingface.co/spaces/harshi1305/vulnspecter
 -   Requests
 -   Socket
 
-------------------------------------------------------------------------
-
-## 📂 Project Structure
-
-VulnSpecter │ ├── app.py ├── scanner.py ├── port_scanner.py ├──
-vulnerability_db.py ├── report_generator.py ├── requirements.txt └──
-dashboard.png
 
 ------------------------------------------------------------------------
 
