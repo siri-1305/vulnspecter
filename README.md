@@ -1,18 +1,19 @@
-🛡️ VulnSpecter – Cyber Vulnerability Scanner
+🛡️ VulnSpecter
+Cyber Vulnerability Scanner
 <p align="center"> <img src="dashboard.png" width="900"> </p>
 
-VulnSpecter is a lightweight cyber-themed vulnerability scanner that analyzes websites for common security weaknesses and displays results through a cyber security dashboard with an attack meter.
+VulnSpecter is a lightweight cyber-themed vulnerability scanner that analyzes websites for common security weaknesses and visualizes the results through a cybersecurity dashboard with an attack meter.
 
 🔗 Live Demo
-VulnSpecter Live Scanner
+VulnSpecter Scanner
 
 🚀 Features
-🔎 Web vulnerability scanning
-🌐 Open port detection
-🛡 Security header analysis
-⚠ Outdated server detection
-📊 Cyber security dashboard
-🚨 Attack risk meter
+Web vulnerability scanning
+Open port detection
+Security header analysis
+Outdated server detection
+Cyber security dashboard
+Attack risk meter
 ⚙️ Tech Stack
 Python
 Streamlit
@@ -34,9 +35,6 @@ cd vulnspecter
 pip install -r requirements.txt
 streamlit run app.py
 🧪 Test URLs
-
-Use safe practice targets:
-
 https://example.com
 http://testphp.vulnweb.com
 http://demo.testfire.net
@@ -46,4 +44,4 @@ https://scanme.nmap.org
 
 📌 Purpose
 
-This project demonstrates basic vulnerability scanning and penetration testing concepts used in cybersecurity.
+This project demonstrates basic vulnerability assessment techniques used in cybersecurity and penetration testing.
